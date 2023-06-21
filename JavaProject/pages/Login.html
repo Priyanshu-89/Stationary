@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Login page</title>
+</head>
+
+<body>
+    <!--
+        <div class="header_Menu">
+            <div class="logo">
+                <img src="../images/facelogo.png" alt="loading">
+            </div>
+            <div class="Menu_list">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Clients</a></li>
+                    <li><a href="#">contact us</a></li>
+                </ul>
+            </div>
+        </div>
+   -->
+    <header>
+    <div class="form-box">
+        <img src="../images/logo.png" class="logo2">
+        <h1>Login Here</h1>
+        <form action="../pages/index.html" id="login-form">
+            <p>Username</p>
+            <input type="text" name="username" placeholder="UserName" id="username" autocomplete="off" onblur="validateUser()">
+            <span id="user"></span>
+
+            <p>Password</p>
+            <input type="password" name="password" placeholder="Password" id="password" autocomplete="off" onblur="validatePassword()"><br>
+            <span id="pass"></span>
+
+            <input type="submit" value="LOGIN" onclick="validateLoginForm()"><br>
+            <center>
+                <a href="#">Forgot Your PassWord</a><br>
+                <!-- <a href="#">Create An Account</a> -->
+            </center>
+        </form>
+    </div>
+</header>
+    <script type="text/javascript" src="../js/app.js"> </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/purple.jpg');
+    background-size: cover;
+
+}
+
+.header_Menu {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.logo {
+    width: 25%;
+    text-align: center;
+  
+}
+.logo img{
+    height: 45px;
+}
+
+.Menu_list {
+    width: 75%;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.Menu_list ul li a {
+    text-decoration: none;
+    color: rgb(211, 96, 145);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+.Menu_list li {
+    display: inline;
+    text-transform: uppercase;
+    list-style: none;
+    letter-spacing: 2px;
+    padding-left: 50px;
+}
+
+
+.form-box {
+    width: 350px;
+    height: 400px;
+    background-color: #000;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    color: #fff;
+    padding: 70px 30px;
+}
+
+.logo2 {
+    width: 120px;
+    height: 120;
+    border-radius: 50%;
+    position: absolute;
+    top: -60px;
+    left: calc(50% - 60px);
+}
+
+h1 {
+    margin: 0px;
+    padding: 0, 0, 20px;
+    font-size: 22px;
+    text-align: center;
+    color: rgb(211, 96, 145);
+}
+
+.form-box p {
+    margin: 0;
+    padding: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    border-bottom: 15px;
+}
+
+.form-box input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 8px;
+
+}
+
+.form-box input[type="text"],
+input[type="password"] {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 15px;
+}
+
+.form-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: rgb(211, 96, 145);
+    font-size: 16px;
+    font-weight: bold;
+    color: #efe3e3;
+    cursor: pointer;
+}
+
+.form-box input[type="submit"]:hover{
+    color:rgb(211, 96, 145);
+    background-color: #fff;
+    transition: all 0.2s ease-in;
+    
+}
+
+.form-box a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#user {
+    color: rgb(211, 96, 145);
+}
+
+#pass {
+    color: rgb(211, 96, 145);
+}
